@@ -5,7 +5,7 @@
 
 <p align="center">
 
-<img width="600" alt="Zrzut ekranu 2023-09-23 o 17 56 24" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/a0b9fc5f-df3a-42e9-83ae-918794e06b1d">
+<img width="500" alt="Zrzut ekranu 2023-09-23 o 17 56 24" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/a0b9fc5f-df3a-42e9-83ae-918794e06b1d">
 </p>
 
 
@@ -35,5 +35,11 @@ In this solution i created an python object represented business area with atrib
 <br/> 
 <p align="center">
 
-<img width="1150" alt="Zrzut ekranu 2023-09-23 o 19 10 28" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/cd2607b4-a389-40cd-82c2-ff03dbe01b8a">
+<img width="700" alt="Zrzut ekranu 2023-09-23 o 19 10 28" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/cd2607b4-a389-40cd-82c2-ff03dbe01b8a">
 </p>
+
+<p align="center">
+<img width="500" alt="Zrzut ekranu 2023-09-23 o 19 19 55" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/cb52149d-a565-450d-81ca-95ba8e2c3014">
+
+</p>
+
