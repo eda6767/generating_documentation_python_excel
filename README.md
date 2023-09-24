@@ -5,9 +5,9 @@
 
 <p align="center">
 
-<img width="500" alt="Zrzut ekranu 2023-09-23 o 17 56 24" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/a0b9fc5f-df3a-42e9-83ae-918794e06b1d">
-</p>
+<img width="500" alt="Zrzut ekranu 2023-09-23 o 17 56 24" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/1a685de6-ce39-4bba-962a-3b201f5f4efd">
 
+</p>
 
 
 In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics definitions are represented in relational database, 
@@ -35,11 +35,11 @@ In this solution i created an python object represented business area with atrib
 <br/> 
 <p align="center">
 
-<img width="700" alt="Zrzut ekranu 2023-09-23 o 19 10 28" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/cd2607b4-a389-40cd-82c2-ff03dbe01b8a">
+<img width="600" alt="Zrzut ekranu 2023-09-23 o 19 10 28" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/7e7435c2-3569-4f95-87f1-7d751c664f9a">
 </p>
 
 <p align="center">
-<img width="500" alt="Zrzut ekranu 2023-09-23 o 19 19 55" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/cb52149d-a565-450d-81ca-95ba8e2c3014">
+<img width="450" alt="Zrzut ekranu 2023-09-23 o 19 19 55" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/d1cee10c-0d99-445d-94cc-6b64aa806077">
 
 </p>
 
