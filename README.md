@@ -23,6 +23,12 @@ on destination table - all metrics from given table are represented in separated
 
 In this solution i created an python object represented business area with atributes like metric list, data etc.
 
+<br>
+</br>
+So, for example we can have an area: credit cards with all metrics calculating values like: average balance on credit card, average amount of transations in given month, numer of transation in gas stations etc. Metrics within area are grouped based on destination table. In one table you can have up to 1000 metrics
+
+<br>
+</br>
 
 <p align="center">
 
