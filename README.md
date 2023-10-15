@@ -110,6 +110,8 @@ Then, for each object represented area od aggregation we will create excel file 
 
 Apart from the first sheet, which stands for intro to the documentation - subsequent workbooks contain definitions divided into target tables
 
+<sub>
+
 ```python
         for t in i.tables:
             print('Creating a workbook for target table: {}'.format(t))
@@ -148,3 +150,4 @@ Apart from the first sheet, which stands for intro to the documentation - subseq
 
 ```
 
+</sub>
