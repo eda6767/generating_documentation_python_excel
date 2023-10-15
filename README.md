@@ -48,3 +48,26 @@ Our goal is to obtain an excel document, where each sheet will represent metrics
 <p align="center">
 <img width="1411" alt="Zrzut ekranu 2023-10-15 o 17 11 01" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/3c04b033-316f-4a42-affc-728314e3d827">
 </p>
+
+
+<br>
+</br>
+
+For this purpose I created an object Catalog:
+
+
+```
+class Catalog:
+    
+    def __init__(self, area, user=None, tables=None, data=None, file_name=None, columns= None, extra_columns=None):
+        self.area = area
+        self.data = data
+        self.tables = tables
+        self.file_name = file_name
+        self.columns = columns
+        self.extra_columns = extra_columns
+        self.user = user
+
+```
+
+
