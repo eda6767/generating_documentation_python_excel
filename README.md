@@ -105,3 +105,44 @@ Then, for each object represented area od aggregation we will create excel file 
         writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
         input_to_excel=pd.DataFrame()
 ```
+
+Apart from the first sheet, which stands for intro to the documentation - subsequent workbooks contain definitions divided into target tables
+
+```python
+        for t in i.tables:
+            print('Creating a workbook for target table: {}'.format(t))
+            custom_dict = {'PROD': 0, 'TEST': 1, 'DRAFT': 3}
+            sheet_i = i.data[i.data['target_table']==t].sort_values(by=['status'], key=lambda x: x.map(custom_dict))
+            sheet_i.to_excel(writer, sheet_name=t, startrow = 1, index = False)
+            workbook = writer.book
+            worksheet = writer.sheets[t]
+            style_header1= workbook.add_format({'bg_color': '#d2d1cb', 'align': 'center', 'font_size': 10, 'bold': False, 'font_color': 'black', 'border': 1, 'border_color':'white', 'text_wrap': True})
+            style_header= workbook.add_format({'bg_color': '#2f2c1c', 'align': 'center', 'font_size': 10, 'bold': True, 'font_color': 'white'})
+            style_describtions=workbook.add_format({'font_size': 11, 'italic': True, 'text_wrap': True})
+            style_where=workbook.add_format({'font_size': 10, 'text_wrap': True})
+            style_view_name=workbook.add_format({'font_size': 10, 'italic': False})
+            worksheet.set_column('A:O', 40)
+            worksheet.set_column('B:B', 30)
+            worksheet.set_column('C:C', 40)
+            worksheet.set_column('D:D', 20)
+            worksheet.set_column('F:F', 30)
+            worksheet.set_column('G:G', 30)
+            worksheet.set_column('H:I', 10)
+            worksheet.set_column('J:J', 30)
+            worksheet.set_column('K:K', 35)
+            worksheet.set_column('L:L', 35)
+            worksheet.set_column('M:M', 35)
+            worksheet.set_column('N:N', 40)
+            worksheet.set_column('O:O', 15)
+            worksheet.set_column('Q:T', 20)
+            worksheet.write_row("A1:O1", i.extra_columns, style_header1)
+            worksheet.write_row("A2:O2", i.columns, style_header)
+            worksheet.set_column('E:E', 150, style_describtions)
+            worksheet.set_column('N:N', 100, style_where)
+            worksheet.set_column('P:P', 200, style_where)
+            worksheet.set_column('A:A', 40, style_view_name)
+            worksheet.set_zoom(80)
+        writer.save()
+
+```
+
