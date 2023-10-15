@@ -14,7 +14,8 @@
 </p>
 
 
-In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics definitions are represented in relational database, 
+In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics definitions are 
+represented in relational database, 
 <br>
 </br>
 
