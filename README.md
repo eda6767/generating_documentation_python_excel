@@ -22,11 +22,11 @@ where we have given columns like metric name, gropouping key, destinantion table
 
 business is more convenient to use documentation in form excel rather than using database. Moreover metrics are logically grouped into 
 
-business areas like credit cards, credit products, deposits etc. Therefore 
+business areas like credit cards, credit products, deposits etc. Therefore that's why it was a requirement to represents metrics divided 
 
-that's why it was a requirement to represents metrics divided into business areas - each area in different excel file. Within an excel file metrics are grouped based 
+into business areas - each area in different excel file. Within an excel file metrics are grouped based on destination table - all metrics 
 
-on destination table - all metrics from given table are represented in separated sheet.
+from given table are represented in separated sheet.
 
 
 In this solution I created an python object represented business area with atributes like metric list, data etc.
