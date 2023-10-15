@@ -78,9 +78,9 @@ class Catalog:
 <br>
 </br>
 
-As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects, 
+As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to 
 
-where each element corresponds to invidual area.
+create a list of objects,where each element corresponds to invidual area.
 <br>
 </br>
 
