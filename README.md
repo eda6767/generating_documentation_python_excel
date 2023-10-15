@@ -53,7 +53,7 @@ Our goal is to obtain an excel document, where each sheet will represent metrics
 <br>
 </br>
 
-For this purpose I created an object Catalog:
+For this purpose I created an object Catalog which afterwards will represent each area with list of metrics and other artibutes.
 
 
 ```
