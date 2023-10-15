@@ -29,10 +29,10 @@ class Catalog:
         self.columns = m
         
     def pick_extra_columns(self):
-        ec = ["Metric's name", "Area's name", 'Target table', "Metric's ID",
-                              'Metric description', 'Metric type', 'Metric version', 'Function', 'Grouping key',
-                              'Target table synonym', 'File name for metrics custom/sql', 'Main expression',
-                              ' Aggregation period', 'Where condition', "Metric's status : PROD/TEST/DEV"]
+        ec = ["Metric's name", "Area's name", 'Target table', "Unique identificator",
+                              'Metric description', 'Metric type - simple / composite', 'Metric version', 'Function', 'Columns used for aggregation',
+                                'Grouping key', 'Source table', 'Where condition applied in metric',  "Metric's status : PROD/TEST/DEV",
+                                'Main expression', 'Aggregation period',  ]
         self.extra_columns = ec
 
 

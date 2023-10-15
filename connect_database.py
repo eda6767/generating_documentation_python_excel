@@ -27,9 +27,8 @@ class Connector:
         connection.outputtypehandler = OutputTypeHandler
         query = connection.cursor()
         rs=query.execute("select metric, area_name, target_table, metric_id, description, metric_type, \
-                         simple_metric, metric_version_id, function, grouping_key, source_table, \
-                         custom_sql_file, expression, where_condition, \
-                         status from agr_44.metric_definition_list")
+                         metric_version_id, function, grouping_key, source_table, \
+                         where_condition,  status, period from agr_44.metric_definition_list")
 
 
         global METRICS
