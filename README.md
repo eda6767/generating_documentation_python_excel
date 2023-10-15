@@ -3,8 +3,14 @@
 
 <sub/>
 
+<br>
+</br>
+
 <p align="center">
-<img width="500" alt="Zrzut ekranu 2023-09-23 o 17 56 24" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/1a685de6-ce39-4bba-962a-3b201f5f4efd">
+    
+<img width="700" alt="Zrzut ekranu 2023-10-15 o 19 46 21" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/45715de9-83cf-47b5-a6b5-fa2d996c91bf">
+
+
 </p>
 
 
