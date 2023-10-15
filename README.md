@@ -56,7 +56,7 @@ Our goal is to obtain an excel document, where each sheet will represent metrics
 For this purpose I created an object Catalog which afterwards will represent each area with list of metrics and other artibutes.
 
 
-```
+```python
 class Catalog:
     
     def __init__(self, area, user=None, tables=None, data=None, file_name=None, columns= None, extra_columns=None):
@@ -72,7 +72,7 @@ class Catalog:
 
 Next, for creating excels I used writer - ExcelWriter
 
-```
+```python
  writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
 ```
 
