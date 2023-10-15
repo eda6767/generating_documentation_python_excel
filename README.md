@@ -40,5 +40,11 @@ So, for example we can have an area: credit cards with all metrics calculating v
 
 </p>
 
-<img width="1411" alt="Zrzut ekranu 2023-10-15 o 17 11 01" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/3c04b033-316f-4a42-affc-728314e3d827">
+Our goal is to obtain an excel document, where each sheet will represent metrics wihin one target table, as below:
 
+<br>
+</br>
+
+<p align="center">
+<img width="1411" alt="Zrzut ekranu 2023-10-15 o 17 11 01" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/3c04b033-316f-4a42-affc-728314e3d827">
+</p>
