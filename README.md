@@ -14,18 +14,18 @@ In this project I will represent solution how to create automatical documentatio
 
 where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For business is more convenient to use 
 
-documentation in form excelrather than using database. Moreover metrics are logically grouped into business areas like credit cards, credit products, deposits etc. Therefore 
+documentation in form excel rather than using database. Moreover metrics are logically grouped into business areas like credit cards, credit products, deposits etc. Therefore 
 
 that's why it was a requirement to represents metrics divided into business areas - each area in different excel file. Within an excel file metrics are grouped based 
 
 on destination table - all metrics from given table are represented in separated sheet.
 
 
-In this solution i created an python object represented business area with atributes like metric list, data etc.
+In this solution I created an python object represented business area with atributes like metric list, data etc.
 
 <br>
 </br>
-So, for example we can have an area: credit cards with all metrics calculating values like: average balance on credit card, average amount of transations in given month, numer of transation in gas stations etc. Metrics within area are grouped based on destination table. In one table you can have up to 1000 metrics
+So, for example we can have an area: credit cards with all metrics calculating values like: average balance on credit card, average amount of transations in given month, numer of transations in gas stations etc. Metrics within area are grouped based on destination table. In one table you can have up to 1000 metrics
 
 <br>
 </br>
