@@ -70,4 +70,9 @@ class Catalog:
 
 ```
 
+Next, for creating excels I used writer - ExcelWriter
+
+```
+ writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
+```
 
