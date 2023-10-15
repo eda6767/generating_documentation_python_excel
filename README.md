@@ -69,16 +69,12 @@ class Catalog:
         self.user = user
 
 ```
-
 <br>
 </br>
 
 As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects, 
-<br>
-</br> 
 
 where each element corresponds to invidual area.
-
 <br>
 </br>
 
@@ -100,3 +96,12 @@ Next, for creating excels I used writer - ExcelWriter
  writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
 ```
 
+Then, for each object represented area od aggregation we will create excel file :
+
+```python
+    for i in areas_objects:
+        print('\n\n Creating documentation for area: {} \n\n'.format(i.area))
+        file_name='Metrics_catalog_{}.xlsx'.format(i.area)
+        writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
+        input_to_excel=pd.DataFrame()
+```
