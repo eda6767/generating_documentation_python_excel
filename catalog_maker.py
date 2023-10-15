@@ -52,11 +52,11 @@ def create_catalogs(user=None):
         print('\n\n Creating documentation for area: {} \n\n'.format(i.area))
         file_name='Metrics_catalog_{}.xlsx'.format(i.area)
         writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
-        x=pd.DataFrame()
+        input_to_excel=pd.DataFrame()
 
 
         logging.info('Creating worksheet for Intro')
-        x.to_excel(writer, sheet_name='Intro', startrow = 0, index = False)
+        input_to_excel.to_excel(writer, sheet_name='Intro', startrow = 0, index = False)
         workbook = writer.book
         bg_format1 = workbook.add_format({'bg_color': '#ffffff'})
         worksheet = writer.sheets['Intro']
