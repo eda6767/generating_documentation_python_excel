@@ -70,6 +70,25 @@ class Catalog:
 
 ```
 
+<br>
+</br>
+
+As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects, where each element corresponds to invidual area.
+
+
+
+```python
+    areas=connector.data['area_name'].unique()
+    print(areas)
+    
+    logging.info('Creating an object class Catalog')
+
+    areas_objects=[]
+    for i in areas:
+        areas_objects.append(Catalog(i))
+```
+
+
 Next, for creating excels I used writer - ExcelWriter
 
 ```python
