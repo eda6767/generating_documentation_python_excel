@@ -48,6 +48,9 @@ Our goal is to obtain an excel document, where each sheet will represent metrics
 <sub> For this purpose I created an object Catalog which afterwards will represent each area with list of metrics and other artibutes.
 </sub>
 
+
+<sub>
+    
 ```python
 class Catalog:
     
@@ -61,15 +64,19 @@ class Catalog:
         self.user = user
 
 ```
+</sub>
+
 <br>
 </br>
 
-As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to 
-
-create a list of objects,where each element corresponds to invidual area.
+<sub>
+As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects,where each element corresponds to invidual area.
+</sub>
+    
 <br>
 </br>
-
+<sub>
+    
 ```python
     areas=connector.data['area_name'].unique()
     print(areas)
@@ -80,6 +87,7 @@ create a list of objects,where each element corresponds to invidual area.
     for i in areas:
         areas_objects.append(Catalog(i))
 ```
+</sub>
 
 
 Next, for creating excels I used writer - ExcelWriter
