@@ -40,6 +40,5 @@ So, for example we can have an area: credit cards with all metrics calculating v
 
 </p>
 
-
-<img width="1423" alt="Zrzut ekranu 2023-10-15 o 15 11 09" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/2dedbdea-9e33-4cba-be6f-fb4ba449e1b0">
+<img width="1411" alt="Zrzut ekranu 2023-10-15 o 17 11 01" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/3c04b033-316f-4a42-affc-728314e3d827">
 
