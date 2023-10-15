@@ -18,7 +18,9 @@ In this project I will represent solution how to create automatical documentatio
 represented in relational database, 
 
 
-where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For business is more convenient to use 
+where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For
+
+business is more convenient to use 
 
 documentation in form excel rather than using database. Moreover metrics are logically grouped into business areas like credit cards, credit products, deposits etc. Therefore 
 
