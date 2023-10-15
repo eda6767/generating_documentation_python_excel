@@ -66,9 +66,9 @@ def create_catalogs(user=None):
 
         title_style= workbook.add_format({'font_size': 20, 'bold': True, 'font_color': 'black', 'text_wrap': True})
         worksheet.set_column('B:B', 60)
-        worksheet.insert_image('A1', 'INTRO1.png')
-        worksheet.insert_image('D10', 'INTRO2.png')
-        worksheet.insert_image('A31', 'INTRO3.png')
+        worksheet.insert_image('A1', 'intro1.png')
+        worksheet.insert_image('D10', 'intro2.png')
+        worksheet.insert_image('A31', 'intro3.png')
         name=file_name.replace('_', ' ')[:-5]
         worksheet.write('B19', name, title_style)
     
