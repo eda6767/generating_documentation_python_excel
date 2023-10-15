@@ -15,18 +15,16 @@
 
 
 In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics definitions are 
-represented in relational database, 
 
+represented in relational database, where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, 
 
-where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For
+used columns, function etc. For business is more convenient to use documentation in form excel rather than using database. Moreover metrics 
 
-business is more convenient to use documentation in form excel rather than using database. Moreover metrics are logically grouped into 
+are logically grouped into business areas like credit cards, credit products, deposits etc. Therefore that's why it was a requirement to 
 
-business areas like credit cards, credit products, deposits etc. Therefore that's why it was a requirement to represents metrics divided 
+represents metrics divided into business areas - each area in different excel file. Within an excel file metrics are grouped based on 
 
-into business areas - each area in different excel file. Within an excel file metrics are grouped based on destination table - all metrics 
-
-from given table are represented in separated sheet.
+destination table - all metrics from given table are represented in separated sheet.
 
 
 In this solution I created an python object represented business area with atributes like metric list, data etc.
