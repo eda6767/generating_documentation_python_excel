@@ -73,9 +73,14 @@ class Catalog:
 <br>
 </br>
 
-As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects, where each element corresponds to invidual area.
+As connected to database, we are fetching all metrics definitions to data frame, and then we choose unique list of areas. Then, we are able to create a list of objects, 
+<br>
+</br> 
 
+where each element corresponds to invidual area.
 
+<br>
+</br>
 
 ```python
     areas=connector.data['area_name'].unique()
