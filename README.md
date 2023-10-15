@@ -16,8 +16,7 @@
 
 In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics definitions are 
 represented in relational database, 
-<br>
-</br>
+
 
 where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For business is more convenient to use 
 
