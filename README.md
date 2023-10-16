@@ -19,8 +19,9 @@ definitions are represented in relational database, where we have given columns 
 
 <br>
 </br>
+<sub>
 So, for example we can have an area: credit cards with all metrics calculating values like: average balance on credit card, average amount of transations in given month, numer of transations in gas stations etc. Metrics within area are grouped based on destination table. In one table you can have up to 1000 metrics
-
+</sub>
 <br>
 </br>
 
@@ -33,9 +34,9 @@ So, for example we can have an area: credit cards with all metrics calculating v
 <img width="450" alt="Zrzut ekranu 2023-09-23 o 19 19 55" src="https://github.com/eda6767/generating_documentation_python_excel/assets/102791467/d1cee10c-0d99-445d-94cc-6b64aa806077">
 
 </p>
-
+<sub>
 Our goal is to obtain an excel document, where each sheet will represent metrics wihin one target table, as below:
-
+</sub>
 <br>
 </br>
 
@@ -91,15 +92,22 @@ As connected to database, we are fetching all metrics definitions to data frame,
 ```
 </sub>
 
-
+<sub>
 Next, for creating excels I used writer - ExcelWriter
 
 ```python
  writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
 ```
+</sub>
 
+
+<sub>
 Then, for each object represented area od aggregation we will create excel file :
+</sub>
 
+
+<sub>
+    
 ```python
     for i in areas_objects:
         print('\n\n Creating documentation for area: {} \n\n'.format(i.area))
@@ -107,8 +115,14 @@ Then, for each object represented area od aggregation we will create excel file 
         writer = pd.ExcelWriter(file_name, engine='xlsxwriter')
         input_to_excel=pd.DataFrame()
 ```
+</sub>
 
+
+
+<sub>
 Apart from the first sheet, which stands for intro to the documentation - subsequent workbooks contain definitions divided into target tables
+</sub>
+
 
 <sub>
 
