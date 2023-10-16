@@ -10,10 +10,12 @@
 
 
 <sub> In this project I will represent solution how to create automatical documentation for metrics calculated on database. Metrics </sub> 
+
+<sub>
 definitions are represented in relational database, where we have given columns like metric name, gropouping key, destinantion table, source table, sql code, used columns, function etc. For business is more convenient to use documentation in form excel rather than using database. Moreover metrics are logically grouped into business areas like credit cards, credit products, deposits etc. Therefore that's why it was a requirement to represent metrics divided into business areas - each area in different excel file. Within an excel file metrics are grouped based on destination table - all metrics from given table are represented in separated sheet.
+</sub> 
 
-
-<small> In this solution I created an python object represented business area with atributes like metric list, data etc. </small>
+<sub> In this solution I created an python object represented business area with atributes like metric list, data etc. </sub> 
 
 
 
